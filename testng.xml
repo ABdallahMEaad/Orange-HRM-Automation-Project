@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM Test Suite">
+
+    <test name="OrangeHRM Tests">
+
+        <classes>
+
+            <class name="TestCases.LoginTest.LoginTest"/>
+
+            <class name="TestCases.PIMTest.AddEmployeeTest"/>
+
+            <class name="TestCases.PIMTest.EditMyInfoTest"/>
+
+            <class name="TestCases.AdminTest.AdminTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
